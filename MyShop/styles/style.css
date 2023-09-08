@@ -1,0 +1,255 @@
+@charset "utf-8";
+/* CSS Document */
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  background: #6fc;
+}
+.main_container {
+  width: 1000px;
+  height: auto;
+  margin: auto;
+}
+.header_container {
+  width: 1000px;
+  height: 100px;
+  background: #fff;
+}
+#navbar {
+  background: #999;
+  color: #fff;
+  width: 1000px;
+  height: 50px;
+}
+#menu {
+  padding: 0;
+  line-height: 38px;
+  margin-top: 5px;
+  float: left;
+}
+#menu li {
+  list-style: none;
+  display: inline;
+}
+#menu li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 5px;
+  padding: 8px;
+}
+#menu li a:hover {
+  color: #333;
+  font-weight: bold;
+  text-decoration: underline;
+}
+#form {
+  line-height: 50px;
+  padding-right: 8px;
+  float: right;
+}
+#Search_bar {
+  height: 23px;
+  width: 200px;
+}
+#Search_btn {
+  height: 28px;
+}
+#form input:hover {
+  border: 2px solid black;
+}
+#Search_btn:hover {
+  font-weight: bold;
+}
+#Search_bar:hover {
+  width: 205px;
+}
+.content_container {
+  background: #f96;
+  width: 1000px;
+  height: auto;
+}
+#right_content {
+  background: #fcc;
+  width: 800px;
+  float: right;
+  height: 600px;
+  overflow: scroll;
+}
+#left_sidebar {
+  background: #000;
+  width: 200px;
+  float: left;
+  height: 600px;
+}
+
+#sidebar_title {
+  background: #fff;
+  font-size: 22px;
+  padding: 10px;
+  color: #000;
+  /* height:  */
+}
+
+#cats_items {
+  text-align: center;
+  padding: 10px;
+  list-style: none;
+}
+#cats_items li {
+  padding: 6px 0px;
+  list-style: none;
+}
+#cats_items li a {
+  text-decoration: none;
+  list-style: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+#cats_items li a:hover {
+  color: #f93;
+  font-size: 21px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+#headlines {
+  width: 765px;
+  background: #000;
+  color: #fff;
+  height: 35px;
+  padding: 6px 10px;
+  line-height: 30px;
+}
+#headlines_content {
+  float: right;
+}
+
+#products_box {
+  width: 780px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#single_product {
+  float: left;
+  padding: 10px;
+  margin-left: 30px;
+}
+#single_product img {
+  border: 3px solid black;
+}
+.footer {
+  background: #999;
+  color: #000;
+  height: 60px;
+  width: 1000px;
+  text-align: center;
+  padding-top: 12px;
+  clear: both;
+}
